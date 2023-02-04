@@ -1,3 +1,18 @@
-body {
-    color: #999;
+.field-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 496px;
+  margin: auto;
+}
+
+.cell {
+  background-color: #f4cccc;
+  width: 120px;
+  height: 120px;
+  margin: 2px;
+}
+
+.active {
+  background-image: url('../png/goblin.png');
+  background-color: #ef9393;
 }

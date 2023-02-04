@@ -1,11 +1,7 @@
-// TODO: write code here
+import Logic from './logic';
 
-// comment this to pass build
-//const unusedVariable = "variable";
+const field = document.querySelector('.field-container');
+const logic = new Logic(field);
 
-// for demonstration purpose only
-export default function demo(value) {
-  return `Demo: ${value}`;
-}
-
-//console.log("app.js included");
+logic.drawBoard();
+logic.moveGoblin();
